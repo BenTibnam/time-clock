@@ -1,0 +1,32 @@
+body{
+	background-color: #08006f;
+	color: #4fd4ff;
+	font-family: Times New Roman;
+	height: 100%;
+}
+
+div#top-wrapper{
+	position:relative;
+}
+
+div#bottom-wrapper{
+	text-align: left;
+	position: relative;
+	bottom: 0em;
+}
+
+div#time-container{
+	font-size: 2em;
+	position: relative;
+
+}
+
+
+
+div#stat-container{
+	position: relative;
+	top: 10px;
+	font-size: 2em;
+}
+
+

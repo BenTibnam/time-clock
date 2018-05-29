@@ -76,7 +76,7 @@ function Board(breakContainer){
 			
 			widget.className = "board-element";
 			widget.id = "board-element-" + i;
-			widget.addEventListener("click", function(){takeBreak(currentBreak.getName());}
+			widget.addEventListener("click", function(){takeBreak(currentBreak.getName());});
 			widget.innerHTML = currentBreak.getName();
 			_html.appendChild(widget);
 		}
